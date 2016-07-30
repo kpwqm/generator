@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document v1.0 */
+.wrap{width: 1260px;margin: auto;}
+a:focus {outline: none;}
+a:active {outline: 0;}
+a:hover, a:focus, a:active {text-decoration: none;}
+a, a:hover, a:focus, a:active {color: #808080;}
+.f-l{float:left;}
+.f-r{float:right;}
+.bold{font-family: 'dinbold';}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix::after, .clearfix::before{content: " ";display:table; clear:both;}
+.clearfix{_height:1%;}
+.show{display: block!important;}
+.hide{display: none!important;}
+.absolute{position: absolute;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+
+/* ----- box ----- */
+.fs-12{font-size: 12px!important;}
+.fs-14{font-size: 14px!important;}
+.fs-18{font-size: 18px!important;}
+.fs-24{font-size: 24px!important;}
+
+.co-000{color: #000!important;}
+.bg-000{background-color: #000!important;}
+
+/* ----- box ----- */
+i[class^="icon"]{
+	display: block;
+}
+.ho-vr {
+	display: -webkit-box!important;
+	display: -moz-box!important;
+	display: -o-box!important;
+	display: -ms-box!important;
+	display: box!important;
+	
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-o-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+	box-orient: horizontal;
+	
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-o-box-align: center;
+	-ms-box-align: center;
+	box-align: center;
+	
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-o-box-pack: center;
+	-ms-box-pack: center;
+	box-pack: center;
+}
