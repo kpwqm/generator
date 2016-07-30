@@ -1,0 +1,1 @@
+这里存放js框架、类库、第三方插件的目录。如avalon.js、jquery等
